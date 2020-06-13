@@ -1,0 +1,45 @@
+.header {
+	position: fixed;
+	z-index: 100;
+	top: 0;
+	left: 0;
+	width: 100%;
+
+	background-color: #fff;
+}
+.header__body {
+	height: 65px;
+	padding: 1.6rem 0;
+	display: flex;
+	align-items: center;
+}
+.header__logo {
+	height: 100%;
+	img{
+		height: 100%;
+		max-height: 100%;
+		display: block;
+	}
+}
+.header__menu {
+	margin: 0 auto;
+	ul{
+		display: flex;
+		margin: 0 10px;
+		li{
+			&+li{
+				margin-left: 2rem;			
+			}
+			a{
+				font-family: 'Montserrat', sans-serif;
+				font-size: 1.2rem;
+				color: #aaaaaa;
+				text-transform: uppercase;
+			}
+		}
+	}
+}
+.header__social {
+	margin-left: auto;
+	height: 1rem;
+}

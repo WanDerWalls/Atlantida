@@ -1,0 +1,20 @@
+.clients {
+	background: #fff;
+}
+.clients__body {
+	text-align: center;
+	padding: 7.8rem 7rem 12.5rem 7rem;
+}
+.clients__title {}
+.clients__text {}
+
+.clients__items {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+	align-items: center;
+}
+.clients__item {
+	flex: 0 0 20%;
+	padding: 4rem 1.5rem 0 1.5rem;
+}
